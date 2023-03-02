@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+.container {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+table,
+tr,
+th,
+td {
+  border: 2px solid black;
+  width: 250px;
+  height: 50px;
+  margin-top: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+.info-table {
+  width: 60vw;
+}
+.search-button {
+  background-color: #4472c4;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border: none;
+  font-size: 17px;
+}
+.city-search {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 20px;
+}
+.city-search-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.city-search-2 input {
+  padding-left: 10px;
+}
+td:hover {
+  background-color: #8198c0;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.get-weather {
+  background-color: #4472c4;
+  color: white;
+  font-size: 600;
+  padding: 10px;
+  border: none;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+}
+.get-weather:hover {
+  background-color: #69ca86;
+
+  transition: 0.2s ease-in-out;
+}
